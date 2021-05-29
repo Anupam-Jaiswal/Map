@@ -1,0 +1,22 @@
+import java.util.TreeMap;
+
+public class TreeMapExample
+{
+	public static void main(String args[])
+	{
+		TreeMap <Integer, String> t = new TreeMap<Integer, String> ();
+		t.put(110,"anupam");
+		t.put(105,"monu");
+		t.put(102,"sonu");
+		t.put(106,"suraj");
+		t.put(109,"moucho");
+		t.put(107,"doli");
+		t.put(104,"juli");
+		t.put(103,"kanisk");
+		t.put(101,"aanu");
+		t.put(101,"prithvai");
+		
+		System.out.println(t);
+		
+	}
+}
