@@ -1,0 +1,34 @@
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map.Entry;
+import java.util.Set;
+
+public class HashMapExample
+{
+	public static void main(String args[])
+	{
+		HashMap <Integer,String> hs = new HashMap <Integer,String>();
+		hs.put(100,"anupam");
+		hs.put(104,"gaurav");
+		hs.put(102,"satyam");
+		hs.put(103,"mousumi");
+		hs.put(101,"amaani");
+		System.out.println(hs);
+		
+		Set <Integer> s = hs.keySet();//to fetch all the keys 
+		System.out.println(s);
+		
+		Collection <String> c = hs.values();//To fetch all the values
+		System.out.println(c);
+		
+		Set <Entry <Integer,String>> en = hs.entrySet();
+		for(Entry <Integer,String> e: en)
+		{
+			System.out.println(e.getKey()+ " "+e.getValue() );
+		}
+			
+		
+		
+	}
+	
+}

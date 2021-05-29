@@ -1,7 +1,5 @@
 import java.util.Collection;
-import java.util.Collections;
 import java.util.HashMap;
-import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
@@ -77,15 +75,6 @@ public class HashMapExample
 		hs.replace(100, "anupam", "annu");
 		System.out.println(hs);
 		
-		//replace a value associated with the given key if and only if it is currently mapped to given value?
-		
-		hs.replace(102,"sonu");
-		System.out.println(hs);
-		
-		// synchronized HashMap in java?
-		
-		Map m = Collections.synchronizedMap(hs);
-		System.out.println(m);
 		
 		
 	}
